@@ -112,7 +112,7 @@
             "properties": {
                 "scad-lsp.searchPaths": {
                     "type":"string",
-                    "description": "search paths for libs"
+                    "description": "Search paths for libraries."
                 },
                 "scad-lsp.launchPath": {
                     "type": "string",
@@ -122,17 +122,17 @@
                 "scad-lsp.fmtStyle": {
                     "type": "string",
                     "default": "",
-                    "description": "clang format style, options: LLVM, GNU, Google, Chromium, Microsoft, Mozilla, WebKit, file"
+                    "description": "Clang format style, options: LLVM, GNU, Google, Chromium, Microsoft, Mozilla, WebKit, file."
                 },
                 "scad-lsp.fmtExePath": {
                     "type": "string",
                     "default": "",
-                    "description": "clang format executable path"
+                    "description": "Clang format executable path."
                 },
                 "scad-lsp.defaultParam": {
                     "type": "boolean",
                     "default": false,
-                    "description": "if true, will include defualt params in auto-completion"
+                    "description": "If true, will include default params in auto-completion."
                 }
             }
         },
